@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-28T19:12:49.605Z",
+    "end": "2021-09-28T19:12:54.751Z",
+    "duration": 5146,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "31bedeb4-d71e-4dfa-916c-818885029bc4",
+      "title": "",
+      "fullFile": "cypress/integration/verifyToDoScenario.spec.js",
+      "file": "cypress/integration/verifyToDoScenario.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f589e240-52eb-48ed-8b41-7b375afc9cbc",
+          "title": "Verify To Do Scenario",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify user can enter values in Input box",
+              "fullTitle": "Verify To Do Scenario Verify user can enter values in Input box",
+              "timedOut": null,
+              "duration": 2628,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "28ab9247-effb-4c6b-926f-0ca08201b37f",
+              "parentUUID": "f589e240-52eb-48ed-8b41-7b375afc9cbc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Complete task by click on radio button",
+              "fullTitle": "Verify To Do Scenario Complete task by click on radio button",
+              "timedOut": null,
+              "duration": 361,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "ad214a2d-9170-4200-84b2-30ff7a398da6",
+              "parentUUID": "f589e240-52eb-48ed-8b41-7b375afc9cbc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify task in completed list ",
+              "fullTitle": "Verify To Do Scenario Verify task in completed list ",
+              "timedOut": null,
+              "duration": 162,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "d121afec-4ff6-4d1b-82d9-d3dc1ac9c68c",
+              "parentUUID": "f589e240-52eb-48ed-8b41-7b375afc9cbc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "28ab9247-effb-4c6b-926f-0ca08201b37f",
+            "ad214a2d-9170-4200-84b2-30ff7a398da6",
+            "d121afec-4ff6-4d1b-82d9-d3dc1ac9c68c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3151,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/mocha",
+        "code": false,
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

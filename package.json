@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "mocha": "^9.0.1",
+    "mochawesome": "^6.2.2"
+  },
+  "scripts": {
+    "clean:reports": "rm cypress/reports/* || true",
+    "clean:Json": "rm cypress/mocha/* || true",
+    "preqa": "npm run clean:reports && npm run clean:Json",
+    "combine-reports": "mochawesome-merge --reportDir cypress/mocha > cypress/mochareports/report.json",
+    "generate-report": "marge --no-code --charts cypress/mochareports/report.json -f report -o cypress/mochareports"
+  },
+  "dependencies": {
+    "cypress": "^8.5.0",
+    "enquirer": "^2.3.6",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^4.0.1"
+  },
+  "browser": {
+    "[module-name]": false
+  }
+}
